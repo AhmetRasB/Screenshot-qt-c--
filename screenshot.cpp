@@ -8,7 +8,7 @@ Screenshot::Screenshot()
 {
     screenshotLabel->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
     screenshotLabel->setAlignment(Qt::AlignCenter);
-
+        //SS
     const QRect screenGeometry = screen()->geometry();
     screenshotLabel->setMinimumSize(screenGeometry.width() / 8, screenGeometry.height() / 8);
 
